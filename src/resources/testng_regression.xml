@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="CRM Test Automation Regression Suite">-->
+    <suite name="CRM Test Automation Regression Suite" thread-count="2" parallel="tests" verbose="3">
+    <test name="CRM Login Test">
+        <classes>
+            <class name="com.qa.JawwyAE.tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="CRM HomePage Test">
+        <classes>
+            <class name="com.qa.JawwyAE.tests.HomePageTest"/>
+        </classes>
+
+    </test>
+</suite>
